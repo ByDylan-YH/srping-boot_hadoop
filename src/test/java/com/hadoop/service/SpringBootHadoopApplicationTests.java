@@ -10,8 +10,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @Slf4j
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = SrpingBootHadoopApplication.class)
-class SrpingBootHadoopApplicationTests {
+@SpringBootTest
+class SpringBootHadoopApplicationTests {
     @Autowired
     private HDFSService hdfsService;
 
